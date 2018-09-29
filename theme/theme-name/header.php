@@ -4,7 +4,7 @@ $themeURL = get_template_directory_uri();
 
 ?>
 
-<!DOCTYPE html>
+<!doctype html>
 <html <?php language_attributes(); ?> class="no-js no-svg">
     <head>
         <meta charset="<?php bloginfo( 'charset' ); ?>">
