@@ -21,7 +21,7 @@ function your_scripts() {
     /*Owl Carousel Theme*/
     wp_enqueue_style( 'owl-carousel-theme', 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css' );
     /*My Styles*/
-    wp_enqueue_style( 'styles', get_stylesheet_uri() );
+    wp_enqueue_style( 'styles', get_stylesheet_uri(), array(), '1.0' );
     /*Bootstrap JS*/
     wp_enqueue_script('bootstrap-js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', array('jquery'), null, true);
     /*Owl Carousel JS*/
