@@ -5,7 +5,7 @@ $themeURL = get_template_directory_uri();
 ?>
 
 <!doctype html>
-<html <?php language_attributes(); ?> class="no-js no-svg">
+<html <?php language_attributes(); ?>>
     <head>
         <meta charset="<?php bloginfo( 'charset' ); ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,7 +17,3 @@ $themeURL = get_template_directory_uri();
     </head>
     
     <body <?php body_class(); ?>>
-        
-        <!--Here's a standard nav, modified from the Bootstrap example-->
-        
-        
